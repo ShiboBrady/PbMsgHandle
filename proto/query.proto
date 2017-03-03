@@ -1,0 +1,11 @@
+package msg;
+
+message Query {
+    required int64 id = 1;
+    required string questioner = 2;
+}
+
+message Answer {
+    required int64 id = 1;
+    required string answerer = 2;
+}
